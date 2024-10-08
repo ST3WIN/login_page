@@ -1,0 +1,19 @@
+{
+  "name": "login_page",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "nocache": "^4.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
