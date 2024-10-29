@@ -1,5 +1,5 @@
 
-  <div class="container mt-5 bg-warning ">
+  {{!-- <div class="container mt-5 bg-warning ">
     <!-- Header -->
     
     <h1 class="text-center">Welcome {{welcome}}</h1>
@@ -11,7 +11,32 @@
      </a>
       
     </div>
-  </div>
+  </div> --}}
+<div class="container mt-5 p-5 bg-gradient rounded shadow-lg" style="background: linear-gradient(45deg, #ff9800, #ffc107);">
+    <!-- Header -->
+    <h1 class="text-center display-4 font-weight-bold text-white mb-4">
+        Welcome, {{welcome}}!
+    </h1>
+
+    <!-- Welcoming Icon -->
+    <div class="d-flex justify-content-center mb-4">
+        <i class="fas fa-hands-welcome text-white" style="font-size: 100px;"></i> <!-- Replace with any welcoming icon -->
+    </div>
+
+    <!-- Welcome Message -->
+    <p class="text-center lead text-light">
+        We're glad to have you here! 
+    </p>
+
+    <!-- Logout Button -->
+    <div class="d-flex justify-content-center mt-4">
+        <a href="/logout" class="btn btn-danger btn-lg px-5 py-3 rounded-pill shadow">
+            Logout
+        </a>
+    </div>
+</div>
+
+
 
   <!-- Bootstrap JS CDN -->
 
